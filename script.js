@@ -11,8 +11,8 @@ const MeusProjetos =[
         link: "https://github.com/SamylleCarvalho/Aplicativo-AgendJa",
     },
     {
-        titulo: "Projeto 3",
-        descricao: "meu terceiro projeto",
+        titulo: "Em breve mais projetos",
+        descricao: "Estou trabalhando em novos projetos e em breve eles estarão disponíveis para visualização.",
         link: "#"
     }
 ];

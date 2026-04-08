@@ -29,7 +29,7 @@ MeusProjetos.forEach(projeto => {
         <h3>${projeto.titulo}</h3>
         <p>${projeto.descricao}</p>
         <a href="${projeto.link}"
-        class="ver-projeto">Ver Projeto</a>`;
+        class="ver-projeto" target="_blank">Ver Projeto</a>`;
 //adiciona o card pronto para o container dos projetos.        
         container.appendChild(projetoElement);
     });

@@ -1,9 +1,9 @@
 // lista de projetos
 const MeusProjetos =[
     {
-        titulo: "Projeto 1",
-        descricao: "meu primeiro projeto",
-        link: "#"
+        titulo: "Portifólio Pessoal",
+        descricao: "Este é o meu portifólio pessoal, onde apresento uma breve descrição minha,lista com meus projetos e contatos.",
+        link: "https://github.com/SamylleCarvalho/MeuPortif-olio",
     },
     {
         titulo: "Projeto 2",

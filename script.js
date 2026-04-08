@@ -3,7 +3,7 @@ const MeusProjetos =[
     {
         titulo: "Portifólio Pessoal",
         descricao: "Este é o meu portifólio pessoal, onde apresento uma breve descrição minha,lista com meus projetos e contatos.",
-        link: "https://github.com/SamylleCarvalho/MeuPortif-olio",
+        link: "https://github.com/samyllecarvalho/MeuPortif_lio",
     },
     {
         titulo: "Projeto 2",

@@ -1,0 +1,61 @@
+/* centralizar tudo na tela */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color:#f0f2f5;
+    font-family:sans-serif;
+}
+/* criar o card */
+.card {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+}
+
+/* estilizar o título */
+h1 {
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+/* estilizar os campos de entrada */
+input {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+input:focus{
+  border-color: #0056b3;
+  outline: none;
+}
+/* estilizar o botão */
+button {
+    background-color: #0056b3;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 100px;
+    transition: background-color 0.3s;
+  }
+button:hover{
+    background-color: #003d7a;
+}
+/* estilizar o resultado */#resultado {
+    margin-top: 25px;
+    font-size: 1.2rem;
+    text-align: center;
+    min-height: 1.5em;
+}

@@ -11,9 +11,9 @@ const MeusProjetos =[
         link: "https://github.com/SamylleCarvalho/Aplicativo-AgendJa",
     },
     {
-        titulo: "Em breve mais projetos",
-        descricao: "Estou trabalhando em novos projetos e em breve eles estarão disponíveis para visualização.",
-        link: "#"
+        titulo: "Calculadora de Média",
+        descricao: "Calculadora simples para calcular a média de notas e exibir se o aluno foi aprovado ou reprovado.",
+        link:"calcular-media/index.html",
     }
 ];
 // Gerar os cards(caixinhas) dos projetos dinamicamente
@@ -47,7 +47,7 @@ MeusProjetos.forEach(projeto => {
         {
             titulo: "GitHub",
             link: "https://github.com/SamylleCarvalho"
-        }
+        },
     ]
 // Gerar os botões de contato dinamicamente.    
     const containerContato = document.querySelector(".container-contato");

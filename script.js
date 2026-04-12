@@ -14,6 +14,11 @@ const MeusProjetos =[
         titulo:"calculadora de médias",
         descricao:"calculadora simples para calcular notas de alunos,e exibir se o aluno foi aprovado ou reprovado,no semestre.",
         link:"https://samyllecarvalho.github.io/calcular-m-dia/",
+    },
+    {
+        titulo:"ferramenta par ou ímpar",
+        descricao:"ferramenta simples para verificar se um número é par ou ímpar.",
+        link:"https://samyllecarvalho.github.io/ferramenta-par-ou-impar/",
     }
 ];
 // Gerar os cards(caixinhas) dos projetos dinamicamente

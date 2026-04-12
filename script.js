@@ -10,6 +10,11 @@ const MeusProjetos =[
         descricao: "Aplicativo de agendamento de serviços,desenvolvido em equipe,para a disciplina Projeto Integrador 1.",
         link: "https://github.com/SamylleCarvalho/Aplicativo-AgendJa",
     },
+    {
+        titulo:"calculadora de médias",
+        descricao:"calculadora simples para calcular notas de alunos,e exibir se o aluno foi aprovado ou reprovado,no semestre.",
+        link:"https://samyllecarvalho.github.io/calcular-m-dia/",
+    }
 ];
 // Gerar os cards(caixinhas) dos projetos dinamicamente
 const container =document.querySelector(".container-meus-projetos");

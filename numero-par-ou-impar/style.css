@@ -1,0 +1,64 @@
+/* Estilo para o título */
+h1 {
+    color: #333;
+    font-size: 2em;
+    text-align: center;
+}
+/* Estilo para o corpo da página */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f2f2;
+    font-family: Arial, sans-serif;
+}
+/* Estilo para o card */
+.card {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+    min-width: 320px;
+    max-width: 400px;
+    margin: 40px auto;
+}
+/* Estilo para o campo de entrada */
+input {
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+input:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+/* Estilo para o botão */
+button {
+    background-color: #0056b3;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 100px;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #003d7a;
+}
+/* Estilo para o resultado */
+#resultado {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
